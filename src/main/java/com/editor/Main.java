@@ -14,7 +14,8 @@ public class Main {
 
         SpringApplication springApplication=new SpringApplication(Main.class);
         ConfigurableApplicationContext configurableApplicationContext=springApplication.run();
-//        HelloWorld helloWorld=configurableApplicationContext.getBean(HelloWorld.class);
+//       HelloWorld helloWorld=configurableApplicationContext.getBean(HelloWorld.class);
+//        System.out.println(helloWorld);
 
 
     }

@@ -1,5 +1,8 @@
 package com.editor;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class HelloWorld {
 
     public String getWord1() {
@@ -16,6 +19,14 @@ public class HelloWorld {
 
     public void setWord2(String word2) {
         this.word2 = word2;
+    }
+
+    @Override
+    public String toString() {
+        return "HelloWorld{" +
+                "word1='" + word1 + '\'' +
+                ", word2='" + word2 + '\'' +
+                '}';
     }
 
     private String word1;
